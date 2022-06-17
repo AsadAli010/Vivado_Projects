@@ -1,0 +1,43 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "axi_stream_counter",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "INTERFACE",
+            "option": [
+              {
+                "name": "axis",
+                "value": ""
+              },
+              {
+                "name": "register",
+                "value": ""
+              },
+              {
+                "name": "register_mode",
+                "value": "both"
+              },
+              {
+                "name": "port",
+                "value": "counter_output"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "axi_stream_counter",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "axi_stream_counter"
+              }]
+          }
+        }
+      ]
+    }]}

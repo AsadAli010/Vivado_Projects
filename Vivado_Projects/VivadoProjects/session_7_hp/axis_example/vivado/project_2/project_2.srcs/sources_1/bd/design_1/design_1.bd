@@ -1,0 +1,244 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x9C3AACF285B1049B",
+      "device": "xc7z045ffg900-2",
+      "gen_directory": "../../../../project_2.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2021.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "sample_generator_0": ""
+    },
+    "interface_ports": {
+      "M_AXIS": {
+        "mode": "Master",
+        "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+        "vlnv": "xilinx.com:interface:axis_rtl:1.0",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_1_m_axis_aclk",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "HAS_TKEEP": {
+            "value": "0",
+            "value_src": "const_prop"
+          },
+          "HAS_TLAST": {
+            "value": "1",
+            "value_src": "const_prop"
+          },
+          "HAS_TREADY": {
+            "value": "1",
+            "value_src": "const_prop"
+          },
+          "HAS_TSTRB": {
+            "value": "1",
+            "value_src": "auto_prop"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          },
+          "TDATA_NUM_BYTES": {
+            "value": "4",
+            "value_src": "auto_prop"
+          },
+          "TDEST_WIDTH": {
+            "value": "0",
+            "value_src": "const_prop"
+          },
+          "TID_WIDTH": {
+            "value": "0",
+            "value_src": "const_prop"
+          },
+          "TUSER_WIDTH": {
+            "value": "0",
+            "value_src": "const_prop"
+          }
+        }
+      },
+      "S_AXIS": {
+        "mode": "Slave",
+        "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+        "vlnv": "xilinx.com:interface:axis_rtl:1.0",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_1_m_axis_aclk",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "HAS_TKEEP": {
+            "value": "0"
+          },
+          "HAS_TLAST": {
+            "value": "1"
+          },
+          "HAS_TREADY": {
+            "value": "1"
+          },
+          "HAS_TSTRB": {
+            "value": "1"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "LAYERED_METADATA": {
+            "value": "undef"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          },
+          "TDATA_NUM_BYTES": {
+            "value": "4"
+          },
+          "TDEST_WIDTH": {
+            "value": "0"
+          },
+          "TID_WIDTH": {
+            "value": "0"
+          },
+          "TUSER_WIDTH": {
+            "value": "0"
+          }
+        }
+      }
+    },
+    "ports": {
+      "FrameSize": {
+        "direction": "I",
+        "left": "7",
+        "right": "0"
+      },
+      "En": {
+        "direction": "I"
+      },
+      "AXI_En": {
+        "direction": "I"
+      },
+      "m_axis_aclk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_BUSIF": {
+            "value": "M_AXIS:S_AXIS",
+            "value_src": "default"
+          },
+          "ASSOCIATED_RESET": {
+            "value": "m_axis_aresetn",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "design_1_m_axis_aclk",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "m_axis_aresetn": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "sample_generator_0": {
+        "vlnv": "xilinx.com:user:sample_generator:1.0",
+        "xci_name": "design_1_sample_generator_0_0",
+        "xci_path": "ip\\design_1_sample_generator_0_0\\design_1_sample_generator_0_0.xci",
+        "inst_hier_path": "sample_generator_0"
+      }
+    },
+    "interface_nets": {
+      "S_AXIS_1": {
+        "interface_ports": [
+          "S_AXIS",
+          "sample_generator_0/S_AXIS"
+        ]
+      },
+      "sample_generator_0_M_AXIS": {
+        "interface_ports": [
+          "M_AXIS",
+          "sample_generator_0/M_AXIS"
+        ]
+      }
+    },
+    "nets": {
+      "AXI_En_1": {
+        "ports": [
+          "AXI_En",
+          "sample_generator_0/AXI_En"
+        ]
+      },
+      "En_1": {
+        "ports": [
+          "En",
+          "sample_generator_0/En"
+        ]
+      },
+      "FrameSize_1": {
+        "ports": [
+          "FrameSize",
+          "sample_generator_0/FrameSize"
+        ]
+      },
+      "m_axis_aclk_1": {
+        "ports": [
+          "m_axis_aclk",
+          "sample_generator_0/m_axis_aclk",
+          "sample_generator_0/s_axis_aclk"
+        ]
+      },
+      "m_axis_aresetn_1": {
+        "ports": [
+          "m_axis_aresetn",
+          "sample_generator_0/m_axis_aresetn",
+          "sample_generator_0/s_axis_aresetn"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C/axi_stream_counter.cpp:4:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="axi_stream_counter" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis register register_mode=both port=counter_output" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C/axi_stream_counter.cpp:4:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="axi_stream_counter" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=axi_stream_counter" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-142" msg_severity="WARNING" msg_loc="C/axi_stream_counter.cpp:3:0" msg_body="Implementing stream: may cause mismatch if read and write accesses are not in sequential order on port 'counter_output'">
+        <args Name="counter_output"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

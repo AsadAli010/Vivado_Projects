@@ -1,0 +1,2 @@
+axi_stream_counter_regslice_both
+axi_stream_counter

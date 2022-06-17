@@ -1,0 +1,35 @@
+INFO: [HLS 200-10] Running '/opt/Xilinx/Vivado_HLS/2016.2/bin/unwrapped/lnx64.o/vivado_hls'
+INFO: [HLS 200-10] For user 'aali' on host 'esp1pc5.es.tu-harburg.de' (Linux_x86_64 version 4.4.0-210-generic) on Fri Jun 10 17:05:59 CEST 2022
+INFO: [HLS 200-10] On os Ubuntu 16.04.7 LTS
+INFO: [HLS 200-10] In directory '/es_home/aali/VivadoProjects/session_6'
+INFO: [HLS 200-10] Opening project '/es_home/aali/VivadoProjects/session_6/axi_stream_counter'.
+INFO: [HLS 200-10] Opening solution '/es_home/aali/VivadoProjects/session_6/axi_stream_counter/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020clg484-1'
+INFO: [IMPL 213-8] Exporting RTL as an IP in IP-XACT.
+
+****** Vivado v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+bad lexical cast: source type value could not be interpreted as target
+    while executing
+"rdi::set_property core_revision 2206101706 {component component_1}"
+    invoked from within
+"set_property core_revision $Revision $core"
+    (file "run_ippack.tcl" line 755)
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 10 17:06:07 2022...
+CRITICAL WARNING: [IMPL 213-28] Failed to generate IP.
+command 'ap_source' returned error code
+    while executing
+"source /es_home/aali/VivadoProjects/session_6/axi_stream_counter/solution1/export.tcl"
+    invoked from within
+"hls::main /es_home/aali/VivadoProjects/session_6/axi_stream_counter/solution1/export.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$args"
+    (procedure "hls_proc" line 5)
+    invoked from within
+"hls_proc $argv"

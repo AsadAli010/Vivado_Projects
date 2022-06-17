@@ -1,0 +1,3 @@
+<pragmas>
+<pragma file="C/axi_stream_counter.cpp" line="3" pragmaType="interface" parentfunction="axi_stream_counter" mode="axis" port="counter_output" register="1" register_mode="both" name="" depth="-1"/>
+</pragmas>

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# xsim v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sun Jun 12 13:19:13 2022
+# Process ID: 1996
+# Current directory: F:/Thesis_vivado_project/Vivado_Projects/VivadoProjects/sesseion_6_hp/axi_stream_counter/solution1/sim/vhdl
+# Command line: xsim.exe -mode tcl -source {xsim.dir/axi_stream_counter/xsim_script.tcl}
+# Log file: F:/Thesis_vivado_project/Vivado_Projects/VivadoProjects/sesseion_6_hp/axi_stream_counter/solution1/sim/vhdl/xsim.log
+# Journal file: F:/Thesis_vivado_project/Vivado_Projects/VivadoProjects/sesseion_6_hp/axi_stream_counter/solution1/sim/vhdl\xsim.jou
+# Running On: DESKTOP-2178KFV, OS: Windows, CPU Frequency: 1800 MHz, CPU Physical cores: 4, Host memory: 8502 MB
+#-----------------------------------------------------------
+source xsim.dir/axi_stream_counter/xsim_script.tcl
+# xsim {axi_stream_counter} -autoloadwcfg -tclbatch {axi_stream_counter.tcl}
+Time resolution is 1 ps
+source axi_stream_counter.tcl
+## run all
+Note: simulation done!
+Time: 2205 ns  Iteration: 1  Process: /apatb_axi_stream_counter_top/generate_sim_done_proc  File: F:/Thesis_vivado_project/Vivado_Projects/VivadoProjects/sesseion_6_hp/axi_stream_counter/solution1/sim/vhdl/axi_stream_counter.autotb.vhd
+Failure: NORMAL EXIT (note: failure is to force the simulator to stop)
+Time: 2205 ns  Iteration: 1  Process: /apatb_axi_stream_counter_top/generate_sim_done_proc  File: F:/Thesis_vivado_project/Vivado_Projects/VivadoProjects/sesseion_6_hp/axi_stream_counter/solution1/sim/vhdl/axi_stream_counter.autotb.vhd
+$finish called at time : 2205 ns
+## quit
+INFO: [Common 17-206] Exiting xsim at Sun Jun 12 13:19:15 2022...

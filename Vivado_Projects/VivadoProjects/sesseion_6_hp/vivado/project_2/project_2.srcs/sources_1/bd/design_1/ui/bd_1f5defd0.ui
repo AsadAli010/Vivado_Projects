@@ -1,0 +1,15 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.756716",
+   "Default View_TopLeft":"0,-222",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace inst axi_stream_counter_0 -pg 1 -lvl 1 -x 170 -y 90 -defaultsOSRD
+preplace inst floating_point_0 -pg 1 -lvl 2 -x 500 -y 90 -defaultsOSRD
+preplace netloc axi_stream_counter_0_counter_output 1 1 1 NJ 60
+levelinfo -pg 1 0 170 500 670
+pagesize -pg 1 -db -bbox -sgen 0 0 670 180
+"
+}
+

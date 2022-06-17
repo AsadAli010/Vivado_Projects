@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Fri Jun 17 18:45:34 2022
+# Process ID: 15776
+# Current directory: F:/Thesis_vivado_project/Vivado_Projects/VivadoProjects/session_7_hp/axis_example/vivado/project_2/project_2.runs/synth_1
+# Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file: F:/Thesis_vivado_project/Vivado_Projects/VivadoProjects/session_7_hp/axis_example/vivado/project_2/project_2.runs/synth_1/design_1_wrapper.vds
+# Journal file: F:/Thesis_vivado_project/Vivado_Projects/VivadoProjects/session_7_hp/axis_example/vivado/project_2/project_2.runs/synth_1\vivado.jou
+# Running On: DESKTOP-2178KFV, OS: Windows, CPU Frequency: 1800 MHz, CPU Physical cores: 4, Host memory: 8502 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

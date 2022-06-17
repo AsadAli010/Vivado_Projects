@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="axi_stream_counter.cpp" path="/es_home/aali/VivadoProjects/session_6/C/axi_stream_counter.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="axi_stream_counter_test_bench.cpp" path="/es_home/aali/VivadoProjects/session_6/simC/axi_stream_counter_test_bench.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

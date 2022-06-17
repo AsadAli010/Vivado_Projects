@@ -1,0 +1,36 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_axi_stream_counter_top glbl -Oenable_linking_all_libraries -prj axi_stream_counter.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims -L unisims_ver -L xpm -L floating_point_v7_0_19 -L floating_point_v7_1_13 --lib ieee_proposed=./ieee_proposed -s axi_stream_counter 
+Multi-threading is on. Using 6 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Thesis_vivado_project/Vivado_Projects/VivadoProjects/sesseion_6_hp/axi_stream_counter/solution1/sim/vhdl/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/Thesis_vivado_project/Vivado_Projects/VivadoProjects/sesseion_6_hp/axi_stream_counter/solution1/sim/vhdl/AESL_sim_pkg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/Thesis_vivado_project/Vivado_Projects/VivadoProjects/sesseion_6_hp/axi_stream_counter/solution1/sim/vhdl/AESL_axi_s_counter_output.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'AESL_axi_s_counter_output'
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/Thesis_vivado_project/Vivado_Projects/VivadoProjects/sesseion_6_hp/axi_stream_counter/solution1/sim/vhdl/axi_stream_counter.autotb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'apatb_axi_stream_counter_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/Thesis_vivado_project/Vivado_Projects/VivadoProjects/sesseion_6_hp/axi_stream_counter/solution1/sim/vhdl/axi_stream_counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'axi_stream_counter'
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/Thesis_vivado_project/Vivado_Projects/VivadoProjects/sesseion_6_hp/axi_stream_counter/solution1/sim/vhdl/axi_stream_counter_regslice_both.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'axi_stream_counter_regslice_both'
+INFO: [VRFC 10-3107] analyzing entity 'axi_stream_counter_regslice_both_w1'
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling module work.glbl
+Compiling architecture behav of entity xil_defaultlib.axi_stream_counter_regslice_both [axi_stream_counter_regslice_both...]
+Compiling architecture behav of entity xil_defaultlib.axi_stream_counter [axi_stream_counter_default]
+Compiling architecture behav of entity xil_defaultlib.AESL_axi_s_counter_output [aesl_axi_s_counter_output_defaul...]
+Compiling architecture behav of entity xil_defaultlib.apatb_axi_stream_counter_top
+Built simulation snapshot axi_stream_counter

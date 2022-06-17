@@ -1,0 +1,235 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+Process ID: 15436
+
+Current time: 	6/10/22 4:57:07 PM CEST
+Time zone: 	Central European Time (Europe/Berlin)
+
+OS: DISTRIB_ID=Ubuntu
+Version: 4.4.0-210-generic
+Architecture: amd64
+Available processors (cores): 8
+
+DISPLAY: :0.0
+Screen size: 3840x1200
+Screen resolution (DPI): 96
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	/opt/Xilinx/Vivado/2016.2/tps/lnx64/jre
+
+User name: 	aali
+User home directory: /es_home/aali
+User working directory: /es_home/aali/VivadoProjects/session_6/vivado
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: /opt/Xilinx/Vivado
+RDI Data directory: /opt/Xilinx/Vivado/2016.2/data
+RDI Bin directory: /opt/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: /es_home/aali/.Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: /es_home/aali/.Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	177 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,910 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 31 MB (+30081kb) [00:00:05]
+// [Engine Memory]: 4,910 MB (+4996606kb) [00:00:05]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,919 MB. GUI used memory: 22 MB. Current time: 6/10/22 4:57:09 PM CEST
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create New Project"); // l:JideButton (JPanel:JComponent, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// [GUI Memory]: 36 MB (+4007kb) [00:00:17]
+// [GUI Memory]: 44 MB (+5797kb) [00:00:17]
+// [GUI Memory]: 56 MB (+10033kb) [00:00:17]
+// h:g (cv:JFrame): New Project: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, h:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, h:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, h:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, h:g)
+selectButton("BACK", "< Back"); // JButton:AbstractButton (ButtonPanel:JPanel, h:g)
+selectButton("BACK", "< Back"); // JButton:AbstractButton (ButtonPanel:JPanel, h:g)
+selectButton("BACK", "< Back"); // JButton:AbstractButton (ButtonPanel:JPanel, h:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, h:g)
+selectCheckBox(PAResourceItoN.NewProjectWizard_DO_NOT_SPECIFY_SOURCES_AT_THIS_TIME, "Do not specify sources at this time", false); // h:JCheckBox (a:F, h:g): FALSE
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, h:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, h:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, h:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, h:g)
+selectButton(PAResourceOtoP.PartChooser_BOARDS, "Boards"); // m:s (JPanel:JComponent, h:g): TRUE
+selectTable(PAResourceOtoP.PartChooser_BOARDS, "ZedBoard Zynq Evaluation and Development Kit ; em.avnet.com ; d ; xc7z020clg484-1 ; 484 ; 1.3 ; 140 ; 220 ; 106400 ; 0 ; 0 ; 200 ; 53200 ; 4 ; 0 ; 85 ; 0 ; 85 ; C ; 1.05 ; 0.95 ; 0.95 ; 0 ; 0 ; 0 ; 0 ; 0", 0, "ZedBoard Zynq Evaluation and Development Kit", 0); // P:v (JViewport:JComponent, h:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, h:g)
+// bL:g (h:g):  Create Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project project_1 /es_home/aali/VivadoProjects/session_6/vivado/project_1 -part xc7z020clg484-1 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 60 MB (+2116kb) [00:01:17]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: BOARD_MODIFIED
+// Tcl Message: set_property board_part em.avnet.com:zed:part0:1.3 [current_project] 
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, h:g)
+// 'g' command handler elapsed time: 60 seconds
+dismissDialog("Create Project"); // bL:g (h:g)
+dismissDialog("New Project"); // h:g (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,038 MB. GUI used memory: 30 MB. Current time: 6/10/22 4:58:20 PM CEST
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 17 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_PROJECT_SETTINGS, "Project Settings..."); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROJECT_SETTINGS
+// Project Settings: addNotify
+selectButton("IP", "IP"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_REPOSITORY_MANAGER, "Repository Manager", 1); // g:JideTabbedPane (z:bc, k:aP)
+selectButton(PAResourceOtoP.ProjectSettingsIPRepositoryPanel_ADD_REPOSITORY, (String) null); // y:JideButton (JPanel:JComponent, k:aP)
+// Elapsed time: 34 seconds
+setFolderChooser("/es_home/aali/VivadoProjects/session_6/axi_stream_counter");
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  /es_home/aali/VivadoProjects/session_6/axi_stream_counter [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/es_home/aali/VivadoProjects/session_6/axi_stream_counter'. 
+// c:y (k:aP): Add Repository: addNotify
+selectButton(RDIResource.AddRepositoryInfoDialog_OK, "OK"); // a:JButton (JPanel:JComponent, c:y)
+dismissDialog("Add Repository"); // c:y (k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_PACKAGER, "Packager", 2); // g:JideTabbedPane (z:bc, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_REPOSITORY_MANAGER, "Repository Manager", 1); // g:JideTabbedPane (z:bc, k:aP)
+// [GUI Memory]: 65 MB (+1666kb) [00:02:53]
+// Elapsed time: 50 seconds
+selectButton("APPLY", "Apply"); // JButton:AbstractButton (ButtonPanel:JPanel, k:aP)
+selectButton("OK", "OK"); // JButton:AbstractButton (ButtonPanel:JPanel, k:aP)
+dismissDialog("Project Settings"); // k:aP (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// bL:g (cv:JFrame):  IP Catalog : addNotify
+dismissDialog("IP Catalog"); // bL:g (cv:JFrame)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Infrastructure ;  ;  ;  ; ", 4); // O:as (JViewport:JComponent, cv:JFrame)
+// [GUI Memory]: 72 MB (+3417kb) [00:03:52]
+collapseTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Infrastructure ;  ;  ;  ; ", 4); // O:as (JViewport:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_PROJECT_SETTINGS, "Project Settings..."); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROJECT_SETTINGS
+// Project Settings: addNotify
+selectButton("IP", "IP"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aP)
+selectList(PAResourceOtoP.ProjectSettingsIPRepositoryPanel_REPOSITORY_CHOOSER, "/es_home/aali/VivadoProjects/session_6/axi_stream_counter", 0); // p:a (JViewport:JComponent, k:aP)
+selectList(PAResourceOtoP.ProjectSettingsIPRepositoryPanel_REPOSITORY_CHOOSER, "/es_home/aali/VivadoProjects/session_6/axi_stream_counter", 0, false, false, false, false, true); // p:a (JViewport:JComponent, k:aP) - Double Click
+selectList(PAResourceOtoP.ProjectSettingsIPRepositoryPanel_REPOSITORY_CHOOSER, "/es_home/aali/VivadoProjects/session_6/axi_stream_counter", 0); // p:a (JViewport:JComponent, k:aP)
+selectButton(PAResourceOtoP.ProjectSettingsIPRepositoryPanel_REFRESH_ALL, "Refresh All"); // a:JButton (F:JPanel, k:aP)
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/es_home/aali/VivadoProjects/session_6/axi_stream_counter'. 
+selectButton(PAResourceOtoP.ProjectSettingsIPRepositoryPanel_REFRESH_ALL, "Refresh All"); // a:JButton (F:JPanel, k:aP)
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/es_home/aali/VivadoProjects/session_6/axi_stream_counter'. 
+// [GUI Memory]: 80 MB (+5536kb) [00:04:16]
+selectButton(PAResourceOtoP.ProjectSettingsIPRepositoryPanel_REFRESH_ALL, "Refresh All"); // a:JButton (F:JPanel, k:aP)
+// TclEventType: CREATE_IP_CATALOG
+selectButton(PAResourceOtoP.ProjectSettingsIPRepositoryPanel_REFRESH_ALL, "Refresh All"); // a:JButton (F:JPanel, k:aP)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// Tcl Message: update_ip_catalog -rebuild 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/es_home/aali/VivadoProjects/session_6/axi_stream_counter'. 
+selectButton("OptionPane.button", "OK"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+selectTab(PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_GENERAL, "General", 0); // g:JideTabbedPane (z:bc, k:aP)
+// Elapsed time: 19 seconds
+selectTab(PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_REPOSITORY_MANAGER, "Repository Manager", 1); // g:JideTabbedPane (z:bc, k:aP)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // y:JideButton (CommandBar:DockableBar, k:aP)
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  {} [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Elapsed time: 46 seconds
+selectButton(PAResourceOtoP.ProjectSettingsIPRepositoryPanel_ADD_REPOSITORY, (String) null); // y:JideButton (JPanel:JComponent, k:aP)
+setFolderChooser("/es_home/aali/VivadoProjects/session_6/axi_stream_counter");
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  /es_home/aali/VivadoProjects/session_6/axi_stream_counter [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/es_home/aali/VivadoProjects/session_6/axi_stream_counter'. 
+// c:y (k:aP): Add Repository: addNotify
+selectList(RDIResource.AddRepositoryInfoDialog_INFO_LIST, "  axi_stream_counter  (/es_home/aali/VivadoProjects/session_6)
+  No IPs or interfaces", 0); // a:JideList (JViewport:JComponent, c:y)
+selectList(RDIResource.AddRepositoryInfoDialog_INFO_LIST, "  axi_stream_counter  (/es_home/aali/VivadoProjects/session_6)
+  No IPs or interfaces", 0, false, false, false, false, true); // a:JideList (JViewport:JComponent, c:y) - Double Click
+selectList(RDIResource.AddRepositoryInfoDialog_INFO_LIST, "  axi_stream_counter  (/es_home/aali/VivadoProjects/session_6)
+  No IPs or interfaces", 0); // a:JideList (JViewport:JComponent, c:y)
+selectList(RDIResource.AddRepositoryInfoDialog_INFO_LIST, "  axi_stream_counter  (/es_home/aali/VivadoProjects/session_6)
+  No IPs or interfaces", 0); // a:JideList (JViewport:JComponent, c:y)
+selectList(RDIResource.AddRepositoryInfoDialog_INFO_LIST, "  axi_stream_counter  (/es_home/aali/VivadoProjects/session_6)
+  No IPs or interfaces", 0, false, false, false, false, true); // a:JideList (JViewport:JComponent, c:y) - Double Click
+selectList(RDIResource.AddRepositoryInfoDialog_INFO_LIST, "  axi_stream_counter  (/es_home/aali/VivadoProjects/session_6)
+  No IPs or interfaces", 0); // a:JideList (JViewport:JComponent, c:y)
+selectList(RDIResource.AddRepositoryInfoDialog_INFO_LIST, "  axi_stream_counter  (/es_home/aali/VivadoProjects/session_6)
+  No IPs or interfaces", 0); // a:JideList (JViewport:JComponent, c:y)
+selectList(RDIResource.AddRepositoryInfoDialog_INFO_LIST, "  axi_stream_counter  (/es_home/aali/VivadoProjects/session_6)
+  No IPs or interfaces", 0, false, false, false, false, true); // a:JideList (JViewport:JComponent, c:y) - Double Click
+selectList(RDIResource.AddRepositoryInfoDialog_INFO_LIST, "  axi_stream_counter  (/es_home/aali/VivadoProjects/session_6)
+  No IPs or interfaces", 0); // a:JideList (JViewport:JComponent, c:y)
+selectList(RDIResource.AddRepositoryInfoDialog_INFO_LIST, "  axi_stream_counter  (/es_home/aali/VivadoProjects/session_6)
+  No IPs or interfaces", 0); // a:JideList (JViewport:JComponent, c:y)
+selectList(RDIResource.AddRepositoryInfoDialog_INFO_LIST, "  axi_stream_counter  (/es_home/aali/VivadoProjects/session_6)
+  No IPs or interfaces", 0); // a:JideList (JViewport:JComponent, c:y)
+selectList(RDIResource.AddRepositoryInfoDialog_INFO_LIST, "  axi_stream_counter  (/es_home/aali/VivadoProjects/session_6)
+  No IPs or interfaces", 0); // a:JideList (JViewport:JComponent, c:y)
+selectList(RDIResource.AddRepositoryInfoDialog_INFO_LIST, "  axi_stream_counter  (/es_home/aali/VivadoProjects/session_6)
+  No IPs or interfaces", 0); // a:JideList (JViewport:JComponent, c:y)
+selectList(RDIResource.AddRepositoryInfoDialog_INFO_LIST, "  axi_stream_counter  (/es_home/aali/VivadoProjects/session_6)
+  No IPs or interfaces", 0); // a:JideList (JViewport:JComponent, c:y)
+selectList(RDIResource.AddRepositoryInfoDialog_INFO_LIST, "  axi_stream_counter  (/es_home/aali/VivadoProjects/session_6)
+  No IPs or interfaces", 0); // a:JideList (JViewport:JComponent, c:y)
+selectList(RDIResource.AddRepositoryInfoDialog_INFO_LIST, "  axi_stream_counter  (/es_home/aali/VivadoProjects/session_6)
+  No IPs or interfaces", 0); // a:JideList (JViewport:JComponent, c:y)
+selectList(RDIResource.AddRepositoryInfoDialog_INFO_LIST, "  axi_stream_counter  (/es_home/aali/VivadoProjects/session_6)
+  No IPs or interfaces", 0); // a:JideList (JViewport:JComponent, c:y)
+selectList(RDIResource.AddRepositoryInfoDialog_INFO_LIST, "  axi_stream_counter  (/es_home/aali/VivadoProjects/session_6)
+  No IPs or interfaces", 0); // a:JideList (JViewport:JComponent, c:y)
+selectButton(RDIResource.AddRepositoryInfoDialog_OK, "OK"); // a:JButton (JPanel:JComponent, c:y)
+dismissDialog("Add Repository"); // c:y (k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_GENERAL, "General", 0); // g:JideTabbedPane (z:bc, k:aP)
+selectCheckBox(PAResourceOtoP.ProjectSettingsIPPage_USE_CORE_CONTAINERS_FOR_IP, "Use Core Containers for IP", true); // h:JCheckBox (JPanel:JComponent, k:aP): TRUE
+selectTab(PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_REPOSITORY_MANAGER, "Repository Manager", 1); // g:JideTabbedPane (z:bc, k:aP)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // y:JideButton (CommandBar:DockableBar, k:aP)
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  {} [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+selectButton(PAResourceOtoP.ProjectSettingsIPRepositoryPanel_ADD_REPOSITORY, (String) null); // y:JideButton (JPanel:JComponent, k:aP)
+setFolderChooser("/es_home/aali/VivadoProjects/session_6/axi_stream_counter");
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  /es_home/aali/VivadoProjects/session_6/axi_stream_counter [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/es_home/aali/VivadoProjects/session_6/axi_stream_counter'. 
+// c:y (k:aP): Add Repository: addNotify
+selectButton(RDIResource.AddRepositoryInfoDialog_OK, "OK"); // a:JButton (JPanel:JComponent, c:y)
+dismissDialog("Add Repository"); // c:y (k:aP)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,047 MB. GUI used memory: 37 MB. Current time: 6/10/22 5:28:20 PM CEST
